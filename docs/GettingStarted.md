@@ -57,6 +57,7 @@ To contribute, check out the [contribution guidelines][contribution docs] and [d
      - [Redis](#redis)
      - [Rest Client](#rest-client)
      - [Resque](#resque)
+     - [RSpec](#rspec)
      - [Shoryuken](#shoryuken)
      - [Sequel](#sequel)
      - [Sidekiq](#sidekiq)
@@ -1500,7 +1501,7 @@ Where `options` is an optional `Hash` that accepts the following parameters:
 | `distributed_tracing` | Enables [distributed tracing](#distributed-tracing) | `true` |
 | `service_name` | Service name for `rest_client` instrumentation. | `'rest_client'` |
 
-## RSpec
+### RSpec
 
 RSpec integration will trace all executions of example groups and examples when using `rspec` test framework.
 
